@@ -33,6 +33,3 @@ let e = { type: 'ficus' }
 let f = [1, false]
 const g = [3]
 let h = null
-
-
-
