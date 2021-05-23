@@ -33,3 +33,25 @@ let e = { type: 'ficus' }
 let f = [1, false]
 const g = [3]
 let h = null
+
+type AA = {
+  a: number
+  b: number
+}
+
+type BB = {
+  a: string
+  b: string
+}
+
+type CC = AA & BB
+let cc:CC = {
+  a: 2,
+  b: null
+}
+
+type DD = AA | BB
+let dd: DD = {
+  a: '2',
+  b: '22'
+}
